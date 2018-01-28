@@ -4,16 +4,10 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-hero-list-actions',
   template: `
     <p>
-      hero-list-actions works!
+      <a href="#">[Add Hero]</a>
     </p>
   `,
   styles: []
 })
-export class HeroListActionsComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+export class HeroListActionsComponent {
 }
